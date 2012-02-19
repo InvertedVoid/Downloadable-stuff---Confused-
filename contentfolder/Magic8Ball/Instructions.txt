@@ -1,0 +1,23 @@
+It's a Magic 8 Ball. If you've never heard of one, try looking on the internet.
+
+Totally not guaranteed to be accurate, or inaccurate for that matter.
+
+
+If an error occurs, panic, because I didn't code it to do anything fancy to let you know.
+
+
+Opening the Magic 8 Ball is accomplished by clicking on it. Once it shows up, you can get rid of it by clicking on it.
+
+If you right-click on it, a menu comes up.
+
+Open: Opens it.
+
+Open and Remove: Opens and removes it.
+
+Flip: Flips it.
+
+Help: opens this document.
+
+Cancel: Does nothing at all.
+
+Note: The coding is terrible, sorry. If you want to change the size of the Magic 8 Ball that pops up on the screen, go ahead, just make sure to get all of the numbers changed that you need to, because I didn't do it with Final or anything.
