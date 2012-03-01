@@ -1,0 +1,11 @@
+[WIDGET]widgets/Magic8Ball.class[/WIDGET]null[NAME]Magic 8 Ball
+
+
+[WIDGET]widgets/UpdateChecker.class[/WIDGET]300;true;MSPA_HOME;6;6543;6;6543;n;[NAME]Update Checker
+[FILE]C:\Users\matt2\Documents\12.NHSFlyer.docx[NAME]12.NHSFlyer.docx
+
+
+
+
+
+
