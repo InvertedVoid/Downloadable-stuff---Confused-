@@ -1,0 +1,204 @@
+Fetch Modi idea list: last updated 3/8/2012
+
+
+
+Data Structures:
+
+Buffer: When you put in an item, it drops back out after a set amount of time. This is not really what a buffer does, and a buffer isn't really a data structure,
+but modus control deck BufferedStack would be HILARIOUS. You have to keep shoving items in to stop them from falling out.
+
+Write-Only Memory: You can put items in, but can't take them out.
+
+Read-Only Memory: You can take items out, but can't put them in. (They'd get put in while you were in a different modus using the same list).
+
+Random Access Memory: After a random amount of time, it spits an item out. And then after a new random amount of time, out goes another one! Etc.
+
+Black Box: Once you store an item in there, you cannot see the item, but it remains in the same position, so you can memorize that. Not really a data structure, but it's
+based on a concept related to computers.
+
+Captcha: Must decipher the captcha code on the back of the card to open it. Unfortunately, our captchas are not squiggly.
+
+Lag: Lags. Lag is totally a data structure what are you talking about.
+
+ID: All I know about ID's is that the tutorial claims "no-one uses these anymore". So is this an outmoded data structure? I don't know.
+
+Box-and-whisker: I asked a friend at random who does not read Homestuck "What's a data structure I could make a fetch modus out of?" They said this. I figured if we learned 
+them in math class, they must be good for something? I don't acutally know how to make a modus out of it though.
+
+Histogram: Each card gets a number, reassigned any time an item is added or removed. You can view histograms of what cards match what criteria to try to guess where yours is.
+
+
+
+
+
+Homestuck References:
+
+Problem Sleuth: Works similarly to Array. Items go from right to left across the top right of the screen, the way they work in Problem Sleuth.
+The weapon slot stores an item, or accesses the strife specibus if anyone codes one. Add card would add pocket, hat, etc.
+
+The Felt: Technically I already called this one, but if you want it you can have it. Basically, fifteen cards and every one does something themed
+to the corresponding member of the Felt. So for 1 (Itchy) the open animation runs absurdly fast, for 2 (Doze) it goes slow, if you take an item out of card 8 (Sn0wman)
+it crashes the modus and ejects everything, and so on (I came up with something interesting and codable for everyone except 3 and 5). The cards on the screen
+go in a triangle, like pool balls set up before the game.
+
+Midnight Crew: Similar to that password modus which just got coded. You store the item in a card and are given the name of a playing card, and you name
+the playing card to get it out, the way they do in the Intermission.
+
+Gamebro: OH WAIT I ALREADY DID THIS ONE! Gamebro + Stack = Grand Stack F***yeah, Gamebro + Array + Stack = Mad Stacks, Yo! 
+
+Tangle Buddies: Whenever an item is added or removed, the items pair up at random, and can only be removed as that pair. If an odd number of cards are in,
+the remaining card is Skipper Plumbthroat. This has no effect on anything. Unless you want it to, of course.
+
+
+
+
+
+Card Games on Moduscycles: 
+(All these modi use 52 cards and the same save list. Each card is associated with a playing card value. The Midnight Crew modus also uses this list.)
+In any of these modi + Midnight Crew, the cards only show their value and suit, not the stored item, and possibly play more strictly like the original card game.
+
+
+Shuffle: It gives out a card at random. Midnight Crew + Shuffle = Dead Shuffle. Heh.
+
+Stacked Deck: Shuffle, except cards with higher values come out more often.
+
+Solitaire: Works like regular solitaire, and when you place a card on the stacks on top right you can remove the item. So the aces are hard to get at.
+
+Pyramid: Cards are dealt out as in the card game pyramid. You can only remove a card if the two items directly below it have been removed.
+
+Discard and Draw: You have a deck, and a hand of seven(?) cards. You remove an item from one of those cards, or store an item in an empty one of them. You then draw an
+eighth card from the deck, then discard a card into a discard pile. When the deck runs out, shuffle the discards and continue. The name comes from Magic: The Gathering,
+through TVtropes, and is a valid Homestuck reference due to the bonus page involving "Hunk Rump: The Gathering".
+
+
+
+
+
+Other Games:
+
+
+Tetris: When an item is put in, it gets put into four cards, which get arranged into a tetris piece and drop in from the top. Completing a row opens all the cards
+in that row. Prefs would be settable to determine whether this means the other parts of the piece left still have the item in them.
+
+Shell Game: Cards get put under cups. Any time you add a card or remove one, a few cups switch position. There are empty ones thrown in. Heh.
+
+Whack-A-Mole: Cards pop up in the holes. Click on them to open them. You just get a brief time to see if you actually want what's in the card, and then to click on it.
+
+Pong: All the items bounce around your screen obnoxiously.
+
+Minesweeper: Items go in the grid as mines. If you open a card with an item in it, you lose. Opening an empty card tells you how many adjacent items there are.
+If you "win", you get to see where everything is and take out what you actually want.
+
+Tic-tac-toe: Nine cards. You play as O. Cards with O's on them are opened, cards with X's are locked until next match. If you lose, it ejects.
+Tic-tac-toe + Inception  = Tic-tac-toe-ception. I'm not sure if it's a known game or just something local, actually. So explanation follows:
+
+	3-by-3 grid of 3-by-3 grids. First person goes in one of the 81 little spaces. Second person goes in any of the nine little spaces in the big space corresponding
+to the little space played in by player one. Player one goes in one of the little spaces in the big space corresponding to player two's move. And so on. And then a modus.
+
+Mario Bros: Items come out of pipes. Hit under them to flip them over, then collect to open. Ejects if you run out of lives.
+
+Super Mario Bros: Go through level 1-1 (or whatever custom map) in a cycle. Items go in the ? blocks, ejects if you run out of lives.
+
+Tower of Hanoi: Items stacked largest to smallest, moved using Tower of Hanoi rules, items added to the only legal position on the center pole, only the top item
+on each pole can be removed.
+
+Shutter: Roll two dice. Remove items from cards that would be legal to under the rules of shutter (also called shut the box). Except instead of losing if there isn't a
+legal move, you can flip cards that would be legal to flip down that are already down back up instead (that is the point at which items can be added.)
+
+Ocarina of Time: Each item is associated with a tune, which must be played with the arrow keys and spacebar (instead of a and the c-stick)
+
+Mastermind: Played like mastermind, except at any point you can a) reset the board and scramble the mystery pegs, b) click open to open all cards you have in the right place.
+There are still four pegs, but instead of six colors, it's n items.
+
+Game-and-watch: Several of these games could probably be converted to modi.
+
+Pinball: Heh. Heh. Heh. Works like pinball, except items get associated with various score targets.
+
+
+
+Movies:
+
+Inception: This one is hilarious, but I'm not sure if I can clearly explain it here, it might be easier for me to just code it. Anyway, it has one card in it.
+This one card contains four cards. You can put items in each of those cards, or you can go another layer into the modus. In that case, that card gets four more
+cards inside of it, and its dock runs up the right of your screen. If you do this for all four cards on the first layer, you will have four bars running up the side of
+your screen, although they will compress to the space of two so that they are arranged like the cards on the first layer. Each of those can store any combination of
+up to four more items or more sets of four cards, which spiral around your screen until you don't actually have any space left to do anything. If you enter a particular card
+on the second level, the other three docks from the second level disappear(you can only access cards on the level and branch you are on. You can scroll up and down the levels)
+Yeah, it's kinda like that.
+
+Highlander: I almost did this for my first modus instead of Gamebro, I highly reccommend it for someone trying their first fetch modus. THERE CAN BE ONLY ONE!!!!
+As in, only one card stored in the modus. Eheh. If you want to get crazy, when one item kills another item it steals its power and the card gets larger and larger and
+wastes more and more of your screen space.
+
+
+
+
+
+Other:
+
+
+Tone: (requires microphone). Each card is associated with a note. Microphone picks up that note, item comes out. Should be hilarious, and don't store stuff on the card
+that has the frequency of your telephone!
+
+Alphabetical: This is one of my favorite. 26 cards. When you add an item, it goes in the card corresponding to the first letter in the item's name, and opens the card
+corresponding to either the second letter or the last letter in the item's name (coder's choice, there's no real difference there).
+
+Scratch: The items are covered in silvery stuff, scratch it off like a lottery ticket.
+
+Sniff: The item is blurred out. Scratch + Sniff = Scratch and Sniff (Scratch-and-sniff really looks like it was done up in the modus control deck)
+
+Chain: Items go in a row. Each item must share a characteristic with the item before it and after it.
+
+Atomic Model: Items go into the appropriate electron shells in the atom. Only items in the outermost energy layer can be accessed, two electrons per shell configuration,
+all that stuff from chem class.
+
+Radioactivity: Every item has a fifty percent chance of opening during each half-life, corresponding to the selected element. (Hopefully there are elements with half-lives
+in the minutes-to-low-hours range, and they aren't all in the 10^6 years range and the 10^-6 seconds range)
+
+Sieve: The modus is full of holes. When you put items in it, remove them, or even mouse over it, stuff tends to fall out. Larger items fall out less often?
+Sieve + Something Linguistically Related = Cursieve?
+
+Parachute: Each item is on a card attached to a parachute. It starts at the top of the screen, and slowly floats downward. You have to keep dragging it back up, otherwise
+it falls out the bottom and opens.
+
+Ramp: Basically parachute except sideways, and they accelerate.
+
+Acrostic: One item is the root card. Subsequent items in position n must start with the n-1th letter in the root item's name. So, root item is Update Checker,
+then you could store uranium, potatoes, and so on. 
+
+Color Wheel: Determines the predominant color in the item (probably checking pixel by pixel) and stores it in there.
+
+Choice: When you open one card, all the other cards delete their item without opening.
+
+Tempermental: Items are always visible, but only sometimes accessible.
+
+Public domain: Connected to THE INTERNET!!! There's only one copy of the modus, shared by all Sylladex users.
+
+Recycle: Randomly adds items which used to be in it back into it.
+
+Operator: You have to call up the operator on the telephone and convince them to operate your Sylladex for you.
+
+Procrastination: Items placed in are not available until the next day.
+
+Diurnal: The cards store one set of items, and then at night flip to store a second set. Heh.
+
+Clock: 12 items, can only be accessed if a hand on the clock is pointing to their card.
+
+Balance: Must balance items on a seesaw, ones that fall off are opened. You can only open cards by making them fall off.
+
+Tower: Similar to stack, but vertical, and you can remove a card from any position but all cards above it automatically open, and if it gets too tall it becomes increasingly
+likely to fall over.
+
+Pile: Stolen from the Modus Shop thread (shoplifted?), cards are in a pile, and you drag them around to get to the ones you want on the bottom layer.
+
+Net: Sort of similar to pile, but items are added at a random point. If a card contains that point, the top card at that location adds it and ejects whatever
+else it may have contained. If there's nothing there it falls through. Similar to gamebro but you can shield stuff or try to spread out as much as possible to catch stuff.
+You have not enough cards to cover the whole area.
+
+
+
+Notes: Some modi mention size. Size of image is determined by area, size of string by length, size of file by...size, and size of widget by I don't know.
+Puzzle also would use that function.
+
+
+
