@@ -1,0 +1,10 @@
+[WIDGET]widgets/RPObject.class[/WIDGET]Caliborn;modi\AdventuresOfCaliborn\Artchives\caliborn.jpg[NAME]Caliborn
+[WIDGET]widgets/RPObject.class[/WIDGET]Caliborn;modi\AdventuresOfCaliborn\Artchives\caliborn.png[NAME]Caliborn
+[WIDGET]widgets/RPObject.class[/WIDGET]Caliborn;modi\AdventuresOfCaliborn\Artchives\clamiborn.png[NAME]Caliborn
+[WIDGET]widgets/RPObject.class[/WIDGET]Caliborn;modi\AdventuresOfCaliborn\Artchives\cooliborn.png[NAME]Caliborn
+[WIDGET]widgets/RPObject.class[/WIDGET]Caliborn;modi\AdventuresOfCaliborn\Artchives\derivatives.png[NAME]Caliborn
+[WIDGET]widgets/RPObject.class[/WIDGET]Lord British;modi\AdventuresOfCaliborn\Artchives\lordbritish.jpg[NAME]Lord British
+[WIDGET]widgets/RPObject.class[/WIDGET]Lord English;modi\AdventuresOfCaliborn\Artchives\lordenglish.png[NAME]Lord English
+[WIDGET]widgets/RPObject.class[/WIDGET]Lord French;modi\AdventuresOfCaliborn\Artchives\lordfrench.jpg[NAME]Lord French
+[WIDGET]widgets/RPObject.class[/WIDGET]Lord Limey;modi\AdventuresOfCaliborn\Artchives\lordlimey.png[NAME]Lord Limey
+[WIDGET]widgets/RPObject.class[/WIDGET]Lord English;modi\AdventuresOfCaliborn\Artchives\Lordoftime.png[NAME]Lord English
